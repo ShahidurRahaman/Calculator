@@ -9,6 +9,7 @@ function print(){
 function push(input){
     if(input=='C'){
         disp="";
+        num.length=0;
     }
     else if(input=='+' || input=='-' || input=='x' || input=='/'){
         if(num.length==1)
